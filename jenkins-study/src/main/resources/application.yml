@@ -1,1 +1,13 @@
-
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password: ''
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jenkins_study?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: '12345678'
+  jackson:
+    date-format: 'yyy-MM-dd HH:mm:ss'
+    time-zone: GMT+8
