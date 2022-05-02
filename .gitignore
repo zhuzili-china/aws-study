@@ -1,2 +1,2 @@
-/jenkins-study/target/
+target/*
 /jenkins-study/src/main/resources/rebel.xml
