@@ -4,7 +4,7 @@ spring:
     port: 6379
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://database-1.cico25wjzfni.ap-northeast-2.rds.amazonaws.com:3306/jenkins_study?useUnicode=true&characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://jenkins-study.cico25wjzfni.ap-northeast-2.rds.amazonaws.com:3306/jenkins_study?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: admin
     password: 'admin123'
   jackson:
